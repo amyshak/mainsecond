@@ -1,3 +1,6 @@
+import com.mainacademy.homework.Car;
+import com.mainacademy.homework.TestVarArg;
+
 import java.util.Scanner;
 
 /**
@@ -8,27 +11,48 @@ public class MyFirstClass {
 
 
     public static void main(String[] arg){
-        System.out.print("Hello world");
+        /* вычисление площади квадрада
+         */
 
-        Scanner sc = new Scanner(System.in);
-        String line = sc.nextLine();
-        System.out.println(line);
+        Square(6);
+
+        // вычисление площади прямоугольника
+
+        reqSquare(4,5);
+
+        name("Alex");
+
+        TestVarArg test =new TestVarArg();
+        int summ = test.calcSum(4,5,7,8);
+        System.out.println( "Сумма" + summ);
+
+
+        Car car1 = new Car(100);
+        Car car2 = new Car (150);
+        Car car3 = new Car (60);
+        System.out.println(car1.getNumOfCars());
 
 
 
-        int e = 6;
-        float f = 1;
 
-        boolean boolExpr = e < f;
 
-        if (boolExpr) {
-            System.out.println("true");
-        } else {
-
-            System.out.println("false");
         }
 
-
-
+    private static void Square(float a) {
+        float square = a*a;
+        System.out.println(square);
     }
+
+    private static void reqSquare(double x, double y) {
+        double reqSquare = x*y;
+        System.out.println("Площадь прямоугольника" + reqSquare);
+    }
+
+    public static void name(String name){
+        System.out.println("hey there!" +name);
+    }
+
+
+
+
 }

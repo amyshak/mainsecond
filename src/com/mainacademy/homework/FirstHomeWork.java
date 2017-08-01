@@ -12,11 +12,8 @@ public class FirstHomeWork {
     // Вывод на экран переменной name
 
 
-    {
-        int a;
 
     }
-    }
 
 
 
@@ -24,4 +21,4 @@ public class FirstHomeWork {
 
 
 
-}
+
