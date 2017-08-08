@@ -24,14 +24,7 @@ public class FirstHomeWork {
 
 
 
-        public class Solution {
-            public static int e = 1;
-            public static int b = -3;
-            public static int c = 9;
-            public static int d = -27;
 
-            int result = +e + b + c + d;
-        System.out.println(result);
 
 
         }
