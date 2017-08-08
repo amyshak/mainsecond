@@ -7,21 +7,21 @@ import java.util.Scanner;
  */
 public class FirstHomeWork {
     public static void main(String[] args) {
-        {
-            String name = "In cats we trust";
-            System.out.print(name);
-        }
         // Вывод на экран переменной name
 
+            String name = "In cats we trust";
+            System.out.println(name);
 
-        {
-            int a;
+
+            //  Написать программу, которая считывает с клавиатуры целое число a и выводит квадрат этого числа
+
+        int a;
             Scanner scNumber = new Scanner(System.in);
             System.out.println("Введите число");
             a = scNumber.nextInt();
-            System.out.print("Квадрат числа=" + a * a);
-        }
-        //  Написать программу, которая считывает с клавиатуры целое число a и выводит квадрат этого числа
+            System.out.println("Квадрат числа=" + a * a);
+
+
 
 
         public class Solution {
@@ -33,10 +33,11 @@ public class FirstHomeWork {
             int result = +e + b + c + d;
         System.out.println(result);
 
+
         }
     }
 
-}
+
 
 
 
